@@ -1,0 +1,178 @@
+@media  screen and (max-width:500px) {    
+
+    .topIgm{
+        margin-left: 35%;
+    }
+    
+    
+    .callToAction{
+        text-align: center;
+    
+    }
+    .callToActionHeaderText{
+        font-size: 2.8rem;
+        margin: 0% 5%;  
+    }
+    .callToActionSubText{
+        font-size: 1.45rem;
+        line-height: 2.5rem;
+        margin: 5% 5%;
+    }
+    
+    .callToActionButtonIos{
+        width: 90%;
+        margin: 4%;
+        padding: 1.5rem;
+    }
+    .callToActionButtonMac{
+        width: 90%;
+        margin-left: 0rem;
+        padding: 1.5rem;
+
+    }
+    .callToActionHeaderText2{
+        font-size: 2rem;
+        margin: 10%;
+    }
+    .callToActionSubText2{
+        font-size: 1.4rem;
+        margin: 10% 4%;
+    }
+    
+    
+    .mainPcInfo{
+        display: block;
+        text-align: center;
+}
+    
+    
+    .pcImg{
+        margin-left: -0%;
+        width: 90%;
+    }
+    .textBox{
+        margin: 0% 5%;
+    }
+    .pcInfoHeaderText{ 
+        line-height: 5rem;
+    }
+    .pcInfoSubText{
+        font-size: 1.5rem;
+    }
+    .accessAnywhere{
+        margin: 35% 0%;
+    }
+    .accessHeaderText{
+        font-size: 3rem;
+    }
+    .accessSubText{
+        font-size: 1.3rem;
+        line-height: 2rem;
+        margin: 10% 5%;
+    }
+    .devicesImg{
+        width: 90%;
+    }
+    
+    .toolsHeaderText{
+        font-size: 3rem;
+    }
+    .toolsSubText{
+        margin: 5%;
+    }
+    .toolMain{
+        display: block;
+        margin: 0% 0%;
+    
+    }
+    .toolsImgs{
+        width: 10%;
+        margin-top: 5%;
+    }
+    .one ,.two ,.three{
+        text-align: center;
+        width: 100%;
+    }
+    .toolsImgsHeadText{
+        color: hsl(210, 10%, 33%);
+        font-size: 2rem;
+    }
+    .toolsImgsSubText{
+        color: hsl(201, 11%, 66%);
+    
+    }
+    .companysLogo{
+        display: grid;
+
+    }
+    .logoImgs{
+        margin: 20% 0%;
+    }
+    
+    
+    .cta{
+        margin: 30% 5%;
+    }
+    .ctaMainText{
+
+        font-size: 2.5rem;
+    }
+    .ctaSubText{
+        font-size: 1.45rem;
+        line-height: 2.5rem;
+        width: 100%;
+        margin: 10% 0%;
+    }
+    .ctaButton{
+        margin-top: 0%;
+    }
+    .iosButton{
+        width: 90%;
+        margin: 4%;
+        padding: 1.5rem;
+    }
+    .Macbutton{
+        width: 90%;
+        margin-left: 0rem;
+        padding: 1.5rem;
+    }
+    
+    
+    .foot{
+        display: flex;
+        flex-direction: column;
+    }
+    .footImg{
+        height: 4rem;
+        margin-top: 10%;
+    }
+    .footerLinks{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    .faqs{
+        margin: revert;
+    }
+    .contactUs{
+        margin: revert;
+    }
+    .privacyPolicy{
+        margin: revert;
+    }
+    .pressKit{
+        margin: revert;
+    }    
+    .installGuide{
+        margin: revert;
+    }
+    
+    .iconFooter{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 1.8rem;
+        margin: 10% 0%;
+    }
+}

@@ -1,0 +1,256 @@
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    margin: auto;
+    /* 4 font-weight
+       6 font-weight  */
+}
+.top{
+background-image: url(./images/bg-header-desktop.png);
+background-size: cover;
+padding: 10%;
+}
+
+.topIgm{
+    margin-left: 50%;
+}
+
+
+.callToAction{
+    text-align: center;
+
+}
+.callToActionHeaderText{
+    font-size: 4rem;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+
+}
+.callToActionSubText{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+
+}
+
+.callToActionButtonIos{
+    border-radius: 25px;
+    border-style: none;
+    width: 20%;
+    padding: 1.3%;
+    background-color:  hsl(171, 66%, 44%);
+    color: white;
+    font-size: 1rem;
+}
+.callToActionButtonMac{
+    border-radius: 25px;
+    border-style: none;
+    width: 20%;
+    margin-left: 5rem;
+    padding: 1.3%;
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    font-size: 1rem;
+}
+
+.callToActionHeaderText2{
+    font-size: 4rem;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+.callToActionSubText2{
+    margin-bottom: 10%;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+}
+
+
+.mainPcInfo{
+    display: flex;
+    align-items: center;
+
+}
+.pcImg{
+    margin-left: -3%;
+}
+.textBox{
+    margin-left: 12%;
+    margin-right: 10%;
+}
+.pcInfoHeaderText{
+    margin-bottom: 0%;
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    font-size: 2rem;
+}
+.pcInfoSubText{
+    margin-top: 0%;
+    color: hsl(201, 11%, 66%);
+    line-height: 2rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+
+}
+.accessAnywhere{
+    text-align: center;
+    margin: 15% 0%;
+}
+.accessHeaderText{
+    color: hsl(210, 10%, 33%);
+    font-size: 2rem;
+}
+.accessSubText{
+    color: hsl(201, 11%, 66%);
+    font-size: 1.5rem;
+}
+.devicesImg{
+    margin-top: 5%;
+}
+
+
+.superTools{
+    text-align: center;
+}
+
+.toolsHeaderText{
+    color: hsl(210, 10%, 33%);
+    font-size: 2rem;
+}
+.toolsSubText{
+    color: hsl(201, 11%, 66%);
+    font-size: 1.5rem;
+}
+.toolMain{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 10% 5%;
+
+}
+.one ,.two ,.three{
+    text-align: center;
+    width: 35%;
+}
+
+.toolsImgsHeadText{
+    color: hsl(210, 10%, 33%);
+    font-size: 2rem;
+}
+.toolsImgsSubText{
+    color: hsl(201, 11%, 66%);
+
+}
+.companysLogo{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10% 0px;
+}
+
+
+.cta{
+    text-align: center;
+}
+.ctaMainText{
+    color: hsl(210, 10%, 33%);
+    font-size: 2rem;
+}
+.ctaSubText{
+    color: hsl(201, 11%, 66%);
+    font-size: 1.5rem;
+    width: 65%;
+    margin: auto;
+}
+.ctaButton{
+    margin-top: 5%;
+}
+.iosButton{
+    border-radius: 25px;
+    border-style: none;
+    width: 20%;
+    padding: 1.3%;
+    font-size: 1rem;
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+}
+.Macbutton{
+    border-radius: 25px;
+    border-style: none;
+    width: 20%;
+    margin-left: 1rem;
+    padding: 1.3%;
+    font-size: 1rem;
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10% ;
+    background-color: hsl(201, 11%, 66%);
+}
+.footImg{
+    height: 4rem;
+}
+.footerLinks{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.faqs{
+    margin-bottom: 0px;
+}
+.contactUs{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-top: 0px;
+}
+.privacyPolicy{
+    margin-right: 20px;
+    margin-bottom: 0px;
+}
+.pressKit{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-top: 0px;
+}
+.installGuide{
+    margin-left: 10%;
+}
+
+.iconFooter{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.8rem;
+}
+
+.callToActionButtonIos:hover,.callToActionButtonMac:hover,.iosButton:hover,.Macbutton:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.faqs:hover,.contactUs:hover,.privacyPolicy:hover,
+.pressKit:hover,.installGuide:hover{
+    color: hsl(171, 66%, 44%);
+    cursor: pointer;
+}
+.iconImgs:hover{
+    color: hsl(171, 66%, 44%);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
